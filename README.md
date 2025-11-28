@@ -1,6 +1,6 @@
 # HOPE-fix
 
-运行命令：
+train：
 python HOPE/train_semi.py \
     --dataset ModelNet40 \
     --num_classes 40 \
@@ -13,3 +13,10 @@ python HOPE/train_semi.py \
     --batch_size 32 \
     --epochs 50 \
     --save ./checkpoints/ModelNet40_v1.1_weighted/
+
+test：
+python HOPE/test_semi.py \
+    --dataset ModelNet40 \
+    --n_labeled 800 \
+    --quantization_type swdc \
+    --gpu_id 1
