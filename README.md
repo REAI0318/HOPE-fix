@@ -68,11 +68,12 @@ python train_semi.py \
 
 
 test：
-python HOPE/test_semi.py \
+python test_semi.py\
     --dataset ModelNet40 \
-    --n_labeled 800 \
     --quantization_type swdc \
-    --gpu_id 1
+    --n_labeled 800 \
+    --gpu_id 0 \
+    --save /home/new_disk_users/HOPE-fxed/checkpoints/ModelNet40_swdc/test_result/
 
 
     
