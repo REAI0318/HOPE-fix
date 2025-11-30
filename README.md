@@ -1,4 +1,4 @@
-# HOPE-fix
+# HOPE-fix 未使用余弦退火
 
 train：
 v1.2：
