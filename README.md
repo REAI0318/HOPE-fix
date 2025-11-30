@@ -14,7 +14,9 @@ python HOPE/train_semi.py \
     --batch_size 32 \
     --epochs 50 \
     --save ./checkpoints/ModelNet40_v1.1_weighted/
+    
 v1.2-cosine（75%+）：
+
 python train_semi.py \
 
     --dataset ModelNet40 \
